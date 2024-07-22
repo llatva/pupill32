@@ -1,2 +1,2 @@
 # pypill32
-Small development board based on PY32F030
+Small development board for PY32F030 (TSSOP20)
