@@ -34,7 +34,7 @@
 	(pad 1 smd rect (at -3.30 0.00 0.00) (size 2.42 1.28) (layers F.Cu F.Paste F.Mask))
 	(pad 2 smd rect (at 3.30 0.00 0.00) (size 2.42 1.28) (layers F.Cu F.Paste F.Mask))
 	(fp_circle (center -4.09 1.75) (end -4.06 1.75) (layer F.Fab) (width 0.06))
-	(model "/pypill32.3dshapes/SW-SMD_L6.0-W3.5-LS8.2.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_L6.0-W3.5-LS8.2.wrl"
 		(offset (xyz 0.010 -0.000 -0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
