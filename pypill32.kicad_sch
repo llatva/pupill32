@@ -993,6 +993,174 @@
 				)
 			)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -4069,10 +4237,22 @@
 		)
 	)
 	(junction
+		(at 264.16 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1da77b4a-5526-4aee-a587-fe35fbcb34a9")
+	)
+	(junction
 		(at 264.16 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30d72a4e-e854-4475-9b44-499522f355d3")
+	)
+	(junction
+		(at 264.16 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3705556f-3b99-4d48-b437-872f5d8bc37f")
 	)
 	(junction
 		(at 107.95 35.56)
@@ -4093,6 +4273,12 @@
 		(uuid "45fd56c5-c947-4488-ad22-d79da655bb0c")
 	)
 	(junction
+		(at 275.59 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "525e96cd-bf83-4260-bdb1-83ba6a63d326")
+	)
+	(junction
 		(at 152.4 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4103,6 +4289,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "700c01ec-8f9c-4e83-acd1-c436c850fb73")
+	)
+	(junction
+		(at 275.59 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70ed04e4-d406-4b0a-b2e9-2ed3004ad01f")
 	)
 	(junction
 		(at 107.95 30.48)
@@ -4257,6 +4449,16 @@
 			(type default)
 		)
 		(uuid "162adab0-899d-4db4-8f12-c4c194b14367")
+	)
+	(wire
+		(pts
+			(xy 264.16 91.44) (xy 264.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f430ef-f256-4e0d-8ac2-2e256bef861e")
 	)
 	(wire
 		(pts
@@ -4560,6 +4762,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 96.52) (xy 275.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599fe07b-a8c6-4e59-a411-75d248cdf252")
+	)
+	(wire
+		(pts
 			(xy 236.22 137.16) (xy 213.36 137.16)
 		)
 		(stroke
@@ -4690,6 +4902,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 96.52) (xy 280.67 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84320178-fbe3-48da-b14e-db23dfe74bb4")
+	)
+	(wire
+		(pts
 			(xy 198.12 68.58) (xy 222.25 68.58)
 		)
 		(stroke
@@ -4800,6 +5022,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 119.38) (xy 236.22 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970056be-093d-47ff-be5e-f9d95d18d322")
+	)
+	(wire
+		(pts
 			(xy 264.16 83.82) (xy 273.05 83.82)
 		)
 		(stroke
@@ -4897,6 +5129,16 @@
 			(type default)
 		)
 		(uuid "b2691cf6-47e5-42d5-b882-99df4f81659c")
+	)
+	(wire
+		(pts
+			(xy 264.16 88.9) (xy 275.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4780aab-6102-42f4-84bb-154f8365e9a5")
 	)
 	(wire
 		(pts
@@ -5020,6 +5262,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 121.92) (xy 236.22 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25ee614-8eae-4ca5-b249-8df357e6f01c")
+	)
+	(wire
+		(pts
 			(xy 236.22 129.54) (xy 205.74 129.54)
 		)
 		(stroke
@@ -5047,6 +5299,16 @@
 			(type default)
 		)
 		(uuid "d947beba-2591-41bd-9082-39d359a3d92d")
+	)
+	(wire
+		(pts
+			(xy 288.29 88.9) (xy 280.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97b7a12-7365-4b5a-a8bc-87421d8c4373")
 	)
 	(wire
 		(pts
@@ -5170,7 +5432,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 114.3) (xy 236.22 114.3)
+			(xy 219.71 114.3) (xy 236.22 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5272,7 +5534,7 @@
 		)
 		(uuid "bd83f66c-fc49-4eac-9f35-73d65a184b1e")
 	)
-	(text "TODO: \n------\n-pinnien selitetekstit isommalle fontille\n-SMD fuse\n-ferriitti?\n-USB-pinnireiät?\n-RGB led?\n-3V3 regu/hakkuri\n-kide?\n-bottomin labelit\n-2,54 jakoon piikkirimat (protolevylle) -- tasajakoon kiinn.ruuvit\n-ikonit\n-lisenssi"
+	(text "TODO: \n------\n-bottomin tekstit\n-SMD fuse\n-ferriitti?\n-USB-pinnireiät?\n-RGB led?\n-3V3 regu/hakkuri\n-2,54 jakoon piikkirimat (protolevylle) -- tasajakoon kiinn.ruuvit\n-ikonit\n-lisenssi"
 		(exclude_from_sim no)
 		(at 19.812 187.96 0)
 		(effects
@@ -5820,6 +6082,29 @@
 			)
 		)
 	)
+	(global_label "PWRLED"
+		(shape input)
+		(at 236.22 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "a389752d-4650-427d-a462-b2a22999a4de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.3203 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 64.77 55.88 180)
@@ -5833,6 +6118,29 @@
 		(uuid "ac14ff57-88aa-410a-8134-97a31cdd42ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.1648 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWRLED"
+		(shape input)
+		(at 115.57 134.62 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "ac973a11-6710-4264-a0b5-8b1d82337919")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 145.5197 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,10 +6538,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0b9e251a-f9bc-4a49-bba9-727e1b5b823f")
 		(property "Reference" "JP2"
-			(at 227.33 109.22 0)
+			(at 220.98 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +6548,7 @@
 			)
 		)
 		(property "Value" "PA8_SEL"
-			(at 227.33 111.76 0)
+			(at 227.584 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,6 +6595,72 @@
 			(project "pypill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 288.29 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f03446d-d489-4ed6-8f2a-8a445c7fff58")
+		(property "Reference" "#PWR042"
+			(at 288.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 288.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2894983a-b1ea-4830-87b5-9f1a1a126485")
+		)
+		(instances
+			(project "pypill32"
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8400,6 +8773,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 219.71 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7989add9-648f-4b7a-a612-517b6deab396")
+		(property "Reference" "#PWR044"
+			(at 219.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30aec3c2-999f-43f0-aa76-2f3ffb38c3a8")
+		)
+		(instances
+			(project "pypill32"
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 130.81 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8533,6 +8972,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 288.29 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80bc376d-1891-4aef-826c-28663e9af5f8")
+		(property "Reference" "#PWR041"
+			(at 288.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 288.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f1d3231-3ffb-4111-817b-c7f894bb4fa1")
+		)
+		(instances
+			(project "pypill32"
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 69.85 100.33 270)
 		(unit 1)
@@ -8595,6 +9100,73 @@
 			(project "pypill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 278.13 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84130366-1b08-4b3a-abcf-9830a9d88933")
+		(property "Reference" "C8"
+			(at 278.1363 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12p TSEKKAA"
+			(at 278.638 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 278.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e62d6fe8-7730-4883-9952-196aeb0e7acc")
+		)
+		(pin "2"
+			(uuid "70acadd1-d05d-46b5-aba4-a4b93268a339")
+		)
+		(instances
+			(project "pypill32"
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9342,6 +9914,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal")
+		(at 275.59 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad45e065-1cdb-4483-860e-fc663aa867b1")
+		(property "Reference" "Y1"
+			(at 279.4 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "32.768 kHz"
+			(at 279.4 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_Round_D2.0mm_Vertical"
+			(at 275.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 275.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91564dd5-2f25-4be3-9501-efbe31ae134f")
+		)
+		(pin "1"
+			(uuid "b0c8cc32-cc67-4f65-9803-6fec5cc65f70")
+		)
+		(instances
+			(project ""
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 240.03 105.41 90)
 		(unit 1)
@@ -9978,6 +10620,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 278.13 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c86f122a-4174-4038-a904-70dcfaa102e4")
+		(property "Reference" "C13"
+			(at 278.1363 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12p TSEKKAA"
+			(at 278.384 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 278.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ea440bf-6a0b-4595-a668-f117c19258b3")
+		)
+		(pin "2"
+			(uuid "d9343781-d422-4f40-a919-769824d99674")
+		)
+		(instances
+			(project "pypill32"
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 144.78 175.26 0)
 		(unit 1)
@@ -10378,6 +11087,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 224.79 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8a0d6d3-b8c2-4a88-9c5f-a23a50302013")
+		(property "Reference" "#PWR043"
+			(at 224.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 223.012 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2ce3f4f-ddfb-4cac-86f5-2e7f8c36857f")
+		)
+		(instances
+			(project "pypill32"
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 107.95 39.37 0)
 		(unit 1)
@@ -10724,7 +11498,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 114.3 0)
+		(at 219.71 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10732,7 +11506,7 @@
 		(dnp no)
 		(uuid "e2b14fef-d1df-47c0-87f8-6e518b05c055")
 		(property "Reference" "#PWR030"
-			(at 223.52 120.65 0)
+			(at 219.71 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,7 +11515,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 115.57 90)
+			(at 217.17 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,7 +11524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 114.3 0)
+			(at 219.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,7 +11533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 114.3 0)
+			(at 219.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10768,7 +11542,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 114.3 0)
+			(at 219.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
