@@ -4679,6 +4679,12 @@
 		(uuid "1da77b4a-5526-4aee-a587-fe35fbcb34a9")
 	)
 	(junction
+		(at 125.73 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c886e06-906b-4aa5-affa-38ed4ce0fb9e")
+	)
+	(junction
 		(at 264.16 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4805,6 +4811,12 @@
 		(uuid "cd6353d4-3f64-4251-bedb-01d16f23e5a4")
 	)
 	(junction
+		(at 121.92 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0b04f7e-d0f1-4165-bea0-95415843c47f")
+	)
+	(junction
 		(at 130.81 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4926,6 +4938,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 36.83) (xy 125.73 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150f508f-c135-4da8-8ad7-4a02c6b9e82a")
+	)
+	(wire
+		(pts
 			(xy 41.91 77.47) (xy 41.91 105.41)
 		)
 		(stroke
@@ -4993,6 +5015,16 @@
 			(type default)
 		)
 		(uuid "1fa51ff2-563e-4d13-b611-c75146d2796b")
+	)
+	(wire
+		(pts
+			(xy 121.92 31.75) (xy 125.73 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224a387d-321d-4b85-b63e-359c178fcf2e")
 	)
 	(wire
 		(pts
@@ -5506,7 +5538,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 31.75) (xy 125.73 31.75)
+			(xy 119.38 31.75) (xy 121.92 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6118,9 +6150,9 @@
 		)
 		(uuid "bd83f66c-fc49-4eac-9f35-73d65a184b1e")
 	)
-	(text "TODO: \n------\n-bottomin tekstit\n-USB-pinnireiät?\n-2,54 jakoon piikkirimat (protolevylle) -- tasajakoon kiinn.ruuvit\n-ikonit\n-lisenssi"
+	(text "TODO: \n------\n-USB-pinnireiät?\n-2,54 jakoon piikkirimat \n(protolevylle) -- tasajakoon kiinn.ruuvit\n"
 		(exclude_from_sim no)
-		(at 19.812 187.96 0)
+		(at 22.098 156.464 0)
 		(effects
 			(font
 				(size 3 3)
@@ -6931,6 +6963,75 @@
 			(project "pypill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 121.92 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09276fd4-7b02-479a-8f65-ff6ffb865dc0")
+		(property "Reference" "C16"
+			(at 120.904 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 120.65 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 121.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ea2a268-73cc-4fc5-924f-6c52a88d926d")
+		)
+		(pin "2"
+			(uuid "567d5994-7dc3-4c83-b5dc-875f88d9de0d")
+		)
+		(instances
+			(project "pypill32"
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -10323,7 +10424,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
-		(at 21.59 128.27 0)
+		(at 191.77 158.75 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -10332,7 +10433,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab0d82b6-44d7-409b-897e-94d27b1c6c6b")
 		(property "Reference" "#SYM1"
-			(at 21.59 121.285 0)
+			(at 191.77 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10341,7 +10442,7 @@
 			)
 		)
 		(property "Value" "Logo_Open_Hardware_Small"
-			(at 21.59 133.985 0)
+			(at 191.77 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10350,7 +10451,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen"
-			(at 21.59 128.27 0)
+			(at 191.77 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10359,7 +10460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 128.27 0)
+			(at 191.77 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10368,7 +10469,7 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 21.59 128.27 0)
+			(at 191.77 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
