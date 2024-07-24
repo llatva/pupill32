@@ -6599,7 +6599,7 @@
 		)
 		(uuid "daabe074-5650-4445-ad51-68b5959066a3")
 	)
-	(text "Set your MCU to bootloader mode by using ONE of the following methods:\n\nA) Disconnect your USB-to-serial converter, pull BOOT0 pin (PF4) to VCC (or press and hold the BOOT button, if your \nboard has one), then connect the converter to your USB port. BOOT0 pin (or BOOT button) can be released now.\n\nB) Connect your USB-to-serial converter to your USB port. Pull BOOT0 pin (PF4) to VCC, then pull nRST (PF2) shortly \nto GND (or press and hold the BOOT button, then press and release the RESET button and then release the BOOT \nbutton, if your board has them).\n\nThen you can flash: python3 puyaisp.py -f firmware.bin\n\nSee the URL above for more information."
+	(text "MCU to bootloader mode:\n\nDisconnect USB cable, press and hold the BOOT button, then connect USB. BOOT button can be released now.\n\nOR\n\nConnect USB cable. Press and hold the BOOT button, then press and release the RESET button and then release the BOOT button.\n\nThen you can flash: python3 puyaisp.py -f firmware.bin\n\nSee the URL above for more information."
 		(exclude_from_sim no)
 		(at 152.4 148.336 0)
 		(effects
