@@ -11420,8 +11420,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Open HW:\nCERN OHL"
-		(at 105.5116 80.772 0)
+	(gr_text "CERN-OHL-W"
+		(at 101.8032 79.6544 0)
 		(layer "B.SilkS")
 		(uuid "eeff255c-a7d2-4eed-8606-b77fd9d1f2c6")
 		(effects
@@ -11430,7 +11430,7 @@
 				(thickness 0.25)
 				(bold yes)
 			)
-			(justify left bottom mirror)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "PB6"

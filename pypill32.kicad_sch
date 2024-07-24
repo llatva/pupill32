@@ -6416,15 +6416,16 @@
 		)
 		(uuid "264285e2-fcf2-4dc9-b60e-b9f8d135f199")
 	)
-	(text "Licensed under CERN OHL. \nSee the attached LICENSE."
+	(text "This board is licensed under CERN-OHL-W \n(weakly reciprocal). See the attached LICENSE."
 		(exclude_from_sim no)
-		(at 221.996 176.784 0)
+		(at 201.422 176.53 0)
 		(effects
 			(font
 				(size 2 2)
 				(thickness 0.6)
 				(bold yes)
 			)
+			(justify left)
 		)
 		(uuid "300bcb0a-1a36-4635-a3ba-11442ca8a995")
 	)
