@@ -6428,7 +6428,7 @@
 		)
 		(uuid "300bcb0a-1a36-4635-a3ba-11442ca8a995")
 	)
-	(text "USB UART ports PA2/PA3 selected to match with:\nhttps://github.com/wagiminator/MCU-Flash-Tools?tab=readme-ov-file#puyaisp"
+	(text "Serial pins PA2 (PY32 TX) / PA3 (PY32 RX) selected to match with:\nhttps://github.com/wagiminator/MCU-Flash-Tools?tab=readme-ov-file#puyaisp"
 		(exclude_from_sim no)
 		(at 151.638 130.556 0)
 		(effects
@@ -6598,7 +6598,7 @@
 		)
 		(uuid "daabe074-5650-4445-ad51-68b5959066a3")
 	)
-	(text "Set your MCU to bootloader mode by using ONE of the following methods:\n\nA) Disconnect your USB-to-serial converter, pull BOOT0 pin (PF4) to VCC (or press and hold the BOOT button, if your \nboard has one), then connect the converter to your USB port. BOOT0 pin (or BOOT button) can be released now.\n\nB) Connect your USB-to-serial converter to your USB port. Pull BOOT0 pin (PF4) to VCC, then pull nRST (PF2) shortly \nto GND (or press and hold the BOOT button, then press and release the RESET button and then release the BOOT \nbutton, if your board has them).\n\nThen you can flash: python3 puyaisp.py -f firmware.bin\n\nSee URL above for more information."
+	(text "Set your MCU to bootloader mode by using ONE of the following methods:\n\nA) Disconnect your USB-to-serial converter, pull BOOT0 pin (PF4) to VCC (or press and hold the BOOT button, if your \nboard has one), then connect the converter to your USB port. BOOT0 pin (or BOOT button) can be released now.\n\nB) Connect your USB-to-serial converter to your USB port. Pull BOOT0 pin (PF4) to VCC, then pull nRST (PF2) shortly \nto GND (or press and hold the BOOT button, then press and release the RESET button and then release the BOOT \nbutton, if your board has them).\n\nThen you can flash: python3 puyaisp.py -f firmware.bin\n\nSee the URL above for more information."
 		(exclude_from_sim no)
 		(at 152.4 148.336 0)
 		(effects
