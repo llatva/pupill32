@@ -29,7 +29,7 @@ OR
 
 ## Independent project -- no affiliation or endorsement
 
-This project is no way affiliated with Puya Semiconductor or any other commercial body. This is an indie evaluation board designed and built by an hobbyist. You may use this open hardware design, at your own risk, according to its license conditions, see the following chapter. 
+This project is no way affiliated with Puya Semiconductor or any other commercial body. This is an indie evaluation board designed and built by a hobbyist. You may use this open hardware design, at your own risk, according to its license conditions, see the following chapter. 
 
 ## License
 
