@@ -4955,12 +4955,6 @@
 		(uuid "391bc5f1-ff9a-468a-bf6b-a143b440a608")
 	)
 	(junction
-		(at 191.77 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bc7ab49-2d28-4e73-85d8-6553cfb0e4c0")
-	)
-	(junction
 		(at 81.28 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4983,12 +4977,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "525e96cd-bf83-4260-bdb1-83ba6a63d326")
-	)
-	(junction
-		(at 194.31 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67c29074-f228-4149-ba61-7e2d4f6160b1")
 	)
 	(junction
 		(at 133.35 46.99)
@@ -5183,6 +5171,16 @@
 			(type default)
 		)
 		(uuid "14510df2-309e-4a92-b705-b8e279b3b44c")
+	)
+	(wire
+		(pts
+			(xy 168.91 49.53) (xy 166.37 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f160c6-a324-449a-b612-ee20d07b5f01")
 	)
 	(wire
 		(pts
@@ -5443,16 +5441,6 @@
 			(type default)
 		)
 		(uuid "3af4bd07-eb0f-47a4-859f-419fefd70725")
-	)
-	(wire
-		(pts
-			(xy 173.99 46.99) (xy 191.77 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f4a78c0-b685-4500-a775-ec1dd88ca881")
 	)
 	(wire
 		(pts
@@ -5846,7 +5834,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 46.99) (xy 168.91 46.99)
+			(xy 156.21 46.99) (xy 161.29 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6346,6 +6334,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 46.99) (xy 166.37 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8143e02-a8ba-4b6e-83bf-efff43b17202")
+	)
+	(wire
+		(pts
 			(xy 199.39 59.69) (xy 199.39 69.85)
 		)
 		(stroke
@@ -6373,16 +6371,6 @@
 			(type default)
 		)
 		(uuid "fba307b5-c392-447c-b7c0-0c7b0aad14a2")
-	)
-	(wire
-		(pts
-			(xy 166.37 49.53) (xy 194.31 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc67ad96-e47d-4fc1-94c9-37efc603bfd6")
 	)
 	(wire
 		(pts
@@ -6444,7 +6432,7 @@
 	)
 	(text "PA3=USART1_RX"
 		(exclude_from_sim no)
-		(at 177.8 30.988 0)
+		(at 161.036 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6526,9 +6514,19 @@
 		)
 		(uuid "a7e5c8db-cb31-41fb-a3d8-8f952c8dc650")
 	)
+	(text "RX"
+		(exclude_from_sim no)
+		(at 200.66 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8bd1636-6aa1-4d2f-9023-00642f1ef77e")
+	)
 	(text "PA2=USART1_TX"
 		(exclude_from_sim no)
-		(at 193.802 34.036 0)
+		(at 176.276 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6598,6 +6596,16 @@
 			)
 		)
 		(uuid "daabe074-5650-4445-ad51-68b5959066a3")
+	)
+	(text "TX"
+		(exclude_from_sim no)
+		(at 200.66 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eddad75c-2385-4105-9082-a9232d5bf3dd")
 	)
 	(text "MCU to bootloader mode:\n\nDisconnect USB cable, press and hold the BOOT button, then connect USB. BOOT button can be released now.\n\nOR\n\nConnect USB cable. Press and hold the BOOT button, then press and release the RESET button and then release the BOOT button.\n\nThen you can flash: python3 puyaisp.py -f firmware.bin\n\nSee the URL above for more information."
 		(exclude_from_sim no)
@@ -6854,6 +6862,28 @@
 			)
 		)
 	)
+	(global_label "PYURX"
+		(shape input)
+		(at 168.91 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0df233b2-c70a-428f-b061-10588be7f18b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.0638 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NRST"
 		(shape input)
 		(at 90.17 175.26 0)
@@ -6990,6 +7020,28 @@
 			)
 		)
 	)
+	(global_label "PYUTX"
+		(shape input)
+		(at 191.77 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5607be23-3b47-4b24-8a58-ddcd012b94ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.9186 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 83.82 43.18 180)
@@ -7059,7 +7111,7 @@
 	)
 	(global_label "PYUTX"
 		(shape input)
-		(at 176.53 46.99 90)
+		(at 168.91 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7069,7 +7121,7 @@
 		)
 		(uuid "7c4b4d77-2d39-4b73-8119-ab8de34adfa5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 38.1386 90)
+			(at 177.7614 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +7133,7 @@
 	)
 	(global_label "PYURX"
 		(shape input)
-		(at 176.53 49.53 270)
+		(at 194.31 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7091,7 +7143,7 @@
 		)
 		(uuid "88958992-b8e2-4f97-8574-c87585b423b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 58.6838 90)
+			(at 185.1562 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8085,7 +8137,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 171.45 46.99 90)
+		(at 163.83 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8094,7 +8146,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b3467c1-f801-4ce5-ab82-bb72d3174a3a")
 		(property "Reference" "R6"
-			(at 171.45 41.91 90)
+			(at 163.83 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +8154,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 171.45 44.45 90)
+			(at 163.83 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +8162,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 171.45 46.99 0)
+			(at 163.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +8171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 46.99 0)
+			(at 163.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8128,7 +8180,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 46.99 0)
+			(at 163.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,10 +10214,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8066a4bd-aaa5-42d0-a4e3-cf63dc103406")
 		(property "Reference" "R5"
-			(at 163.83 44.45 90)
+			(at 163.576 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +10224,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 163.83 46.99 90)
+			(at 163.83 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
