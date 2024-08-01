@@ -11935,6 +11935,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "XTAL"
+		(at 130.2512 69.9516 0)
+		(layer "B.SilkS")
+		(uuid "598fa7a2-ece4-4790-86d4-4962d93d06e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "B7"
 		(at 110.49 65.7352 90)
 		(layer "B.SilkS")
@@ -12007,6 +12020,19 @@
 		(effects
 			(font
 				(size 1.5 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "XTAL"
+		(at 114.3 84.4804 0)
+		(layer "B.SilkS")
+		(uuid "75cc6c15-eaed-4507-9caf-d5d02f370e4f")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.25)
 				(bold yes)
 			)
@@ -12379,7 +12405,7 @@
 	)
 	(gr_text "A11"
 		(at 125.4252 69.2404 90)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "2e6aa1a2-3fde-418d-b6f7-1a3bb64483c7")
 		(effects
 			(font
@@ -12522,7 +12548,7 @@
 	)
 	(gr_text "B7"
 		(at 110.3884 68.4784 90)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "7f3dd1b9-490b-4b9e-9b4f-dd87cb93937c")
 		(effects
 			(font
@@ -12574,7 +12600,7 @@
 	)
 	(gr_text "B5"
 		(at 115.1636 68.4784 90)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "8615e42b-c7d0-439c-b67a-387b38bca87b")
 		(effects
 			(font
@@ -12587,7 +12613,7 @@
 	)
 	(gr_text "B6"
 		(at 112.6744 68.4784 90)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "87117d08-70aa-4866-a8f1-a8eee04fabad")
 		(effects
 			(font
@@ -12600,7 +12626,7 @@
 	)
 	(gr_text "F3"
 		(at 120.65 86.1568 90)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "9b7d8940-0d8d-4201-8a8c-63f0521c9be8")
 		(effects
 			(font
@@ -12626,7 +12652,7 @@
 	)
 	(gr_text "B2"
 		(at 127.9652 86.1568 90)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "a700d8f6-c674-4c5f-a9cf-924c5b72c86c")
 		(effects
 			(font
@@ -12652,7 +12678,7 @@
 	)
 	(gr_text "B4"
 		(at 117.7544 68.4784 90)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "b0d031d0-da82-498d-9a03-826a43e3184a")
 		(effects
 			(font
