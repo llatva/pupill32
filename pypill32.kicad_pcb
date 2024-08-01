@@ -12300,7 +12300,7 @@
 		)
 	)
 	(gr_text "USB"
-		(at 121.8184 84.0232 0)
+		(at 121.8692 83.8708 0)
 		(layer "F.SilkS")
 		(uuid "00bd82f5-ac0f-4c72-a996-3e2c0d33de2a")
 		(effects
@@ -12781,7 +12781,7 @@
 		)
 	)
 	(gr_text "SWD"
-		(at 122.682 69.2404 180)
+		(at 122.682 69.342 180)
 		(layer "F.SilkS")
 		(uuid "df8d85b6-314f-4849-8f80-7cd79b73172d")
 		(effects
@@ -14169,7 +14169,7 @@
 		(uuid "c2b7a9a0-d29d-417b-939a-b5c975cc5b75")
 	)
 	(via
-		(at 103.7336 80.8228)
+		(at 103.4288 81.1276)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
