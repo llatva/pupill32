@@ -198,7 +198,7 @@
     )
     (property
       "Footprint"
-      "pypill32:USB-C-SMD_TYPE-C-6PIN-2MD-073"
+      "pupill32:USB-C-SMD_TYPE-C-6PIN-2MD-073"
       (id 2)
       (at 0 -21.59 0)
       (effects (font (size 1.27 1.27) ) hide)
@@ -328,7 +328,7 @@
     )
     (property
       "Footprint"
-      "pypill32:USB-C-SMD_TYPE-C-6PIN-2MD-073"
+      "pupill32:USB-C-SMD_TYPE-C-6PIN-2MD-073"
       (id 2)
       (at 0 -21.59 0)
       (effects (font (size 1.27 1.27) ) hide)
@@ -458,7 +458,7 @@
     )
     (property
       "Footprint"
-      "pypill32:SW-SMD_L6.0-W3.5-LS8.2"
+      "pupill32:SW-SMD_L6.0-W3.5-LS8.2"
       (id 2)
       (at 0 -7.62 0)
       (effects (font (size 1.27 1.27) ) hide)

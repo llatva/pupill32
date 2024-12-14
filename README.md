@@ -1,4 +1,4 @@
-# pypill32
+# pu(rple)pill32
 ## Compact and inexpensive USB-C development board for PY32F030 (TSSOP20) 32-bit MCU
 
 *NOT YET TESTED -- I'll update this README once prototypes arrive*

@@ -4157,7 +4157,7 @@
 				)
 			)
 		)
-		(symbol "pypill32:PY32F030F1xPx"
+		(symbol "pupill32:PY32F030F1xPx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4680,7 +4680,7 @@
 				)
 			)
 		)
-		(symbol "pypill32:TYPE-C16PIN2MD(073)"
+		(symbol "pupill32:TYPE-C16PIN2MD(073)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4700,7 +4700,7 @@
 					)
 				)
 			)
-			(property "Footprint" "pypill32:USB-C-SMD_TYPE-C-6PIN-2MD-073"
+			(property "Footprint" "pupill32:USB-C-SMD_TYPE-C-6PIN-2MD-073"
 				(at 0 -21.59 0)
 				(effects
 					(font
@@ -7553,7 +7553,7 @@
 			(uuid "09bddb61-a52e-48a9-b7a1-e289cbc6941c")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "H1")
 					(unit 1)
@@ -7619,7 +7619,7 @@
 			(uuid "cba47dc8-c450-434d-b716-47b65689c15e")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR04")
 					(unit 1)
@@ -7687,7 +7687,7 @@
 			(uuid "fde471b8-c1e8-421d-856d-4b823e8a2f1d")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "D3")
 					(unit 1)
@@ -7756,7 +7756,7 @@
 			(uuid "567d5994-7dc3-4c83-b5dc-875f88d9de0d")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C16")
 					(unit 1)
@@ -7822,7 +7822,7 @@
 			(uuid "65af0581-d533-4db6-a112-55a14d58517a")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR05")
 					(unit 1)
@@ -7890,7 +7890,7 @@
 			(uuid "660a3c2f-d559-422a-aba7-5d2c7e50a6cf")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C11")
 					(unit 1)
@@ -7960,7 +7960,7 @@
 			(uuid "896eb43c-dee6-48c9-b0fb-be1d0744ca8f")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "JP2")
 					(unit 1)
@@ -8025,7 +8025,7 @@
 			(uuid "2894983a-b1ea-4830-87b5-9f1a1a126485")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR042")
 					(unit 1)
@@ -8125,7 +8125,7 @@
 			(uuid "0d05fa71-e747-40cd-a142-1d09b872f5ec")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "J1")
 					(unit 1)
@@ -8192,7 +8192,7 @@
 			(uuid "b618351c-6a37-4698-a8af-af50299b5148")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C17")
 					(unit 1)
@@ -8262,7 +8262,7 @@
 			(uuid "221525e1-e1c3-4981-81d5-2f12e7f15263")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C3")
 					(unit 1)
@@ -8332,7 +8332,7 @@
 			(uuid "0c7f1823-1c40-4bdd-b466-e4ff833071d9")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C7")
 					(unit 1)
@@ -8400,7 +8400,7 @@
 			(uuid "961933ef-d659-48ca-a8e1-2706b2a3e26e")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "R6")
 					(unit 1)
@@ -8470,7 +8470,7 @@
 			(uuid "6e964328-dd1b-4cda-b133-c44e9b7b6d1a")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C5")
 					(unit 1)
@@ -8536,7 +8536,7 @@
 			(uuid "7c8e15b1-d020-4c12-b92b-f9b329123841")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR023")
 					(unit 1)
@@ -8603,7 +8603,7 @@
 			(uuid "154c827d-86f7-4b74-b64a-525201b0a433")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR015")
 					(unit 1)
@@ -8612,7 +8612,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pypill32:PY32F030F1xPx")
+		(lib_id "pupill32:PY32F030F1xPx")
 		(at 215.9 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8726,7 +8726,7 @@
 			(uuid "2f39a3b5-2ef8-4c6d-aa61-3e2af16ff3eb")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "U2")
 					(unit 1)
@@ -8793,7 +8793,7 @@
 			(uuid "b651dadb-a5da-43ef-9f23-9958b5ae307e")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR026")
 					(unit 1)
@@ -8859,7 +8859,7 @@
 			(uuid "081ac58b-6387-4915-8584-936fef8fd00e")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR045")
 					(unit 1)
@@ -8925,7 +8925,7 @@
 			(uuid "a28da100-1955-4262-bef7-7fbf1ed1b623")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR01")
 					(unit 1)
@@ -8991,7 +8991,7 @@
 			(uuid "3aa8a3b8-5918-4333-a5d8-709b8017cb1c")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR029")
 					(unit 1)
@@ -9077,7 +9077,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pypill32:TYPE-C16PIN2MD(073)")
+		(lib_id "pupill32:TYPE-C16PIN2MD(073)")
 		(at 39.37 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -9103,7 +9103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pypill32:USB-C-SMD_TYPE-C-6PIN-2MD-073"
+		(property "Footprint" "pupill32:USB-C-SMD_TYPE-C-6PIN-2MD-073"
 			(at 39.37 92.71 0)
 			(effects
 				(font
@@ -9182,7 +9182,7 @@
 			(uuid "9108e49d-4e83-4c04-8d8c-af2177b1ffcf")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "USB1")
 					(unit 1)
@@ -9248,7 +9248,7 @@
 			(uuid "589bef8d-7891-4944-8350-9eeeca0109ed")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR033")
 					(unit 1)
@@ -9282,7 +9282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pypill32:SW-SMD_L6.0-W3.5-LS8.2"
+		(property "Footprint" "pupill32:SW-SMD_L6.0-W3.5-LS8.2"
 			(at 102.87 149.86 0)
 			(effects
 				(font
@@ -9316,7 +9316,7 @@
 			(uuid "41ad8989-d421-4b96-bea8-83be74fe6591")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "SW1")
 					(unit 1)
@@ -9383,7 +9383,7 @@
 			(uuid "77427e76-e471-4642-a7db-82222067fdf2")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "H4")
 					(unit 1)
@@ -9449,7 +9449,7 @@
 			(uuid "8b6e1f81-0dfe-4e4d-af0b-33948df69ad4")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR06")
 					(unit 1)
@@ -9516,7 +9516,7 @@
 			(uuid "f6df601b-d386-46a6-949f-3050bbb3445d")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR022")
 					(unit 1)
@@ -9583,7 +9583,7 @@
 			(uuid "60b015d9-b60d-43ee-846d-b6c6223075a5")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "H2")
 					(unit 1)
@@ -9716,7 +9716,7 @@
 			(uuid "a09efd02-7ff4-4791-84d0-a0e6496c1d30")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR014")
 					(unit 1)
@@ -9804,7 +9804,7 @@
 			(uuid "49827309-5058-4117-8b22-a3d1b5f8e48c")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "U3")
 					(unit 1)
@@ -9870,7 +9870,7 @@
 			(uuid "5e215a33-e0ad-44a1-a652-dae90c81a8d0")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR027")
 					(unit 1)
@@ -9936,7 +9936,7 @@
 			(uuid "c8bdf68f-9dcc-46cc-846d-c3e6e8577999")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR046")
 					(unit 1)
@@ -10006,7 +10006,7 @@
 			(uuid "8781467e-ee41-4a22-8338-6341e4cb65cc")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C6")
 					(unit 1)
@@ -10072,7 +10072,7 @@
 			(uuid "d6758406-3191-421b-a7d4-7ee6229dc53b")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR040")
 					(unit 1)
@@ -10139,7 +10139,7 @@
 			(uuid "b28e26ff-cadc-4924-9d53-6f2e8a1a1c28")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C18")
 					(unit 1)
@@ -10207,7 +10207,7 @@
 			(uuid "ba5af83b-b5b1-44ec-97fd-dcb267ff9535")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "D2")
 					(unit 1)
@@ -10273,7 +10273,7 @@
 			(uuid "958610d0-ba9a-4dce-a93c-4860280076e4")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR021")
 					(unit 1)
@@ -10339,7 +10339,7 @@
 			(uuid "9f23a939-4d28-47d4-9c6a-fd61d5eadece")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR07")
 					(unit 1)
@@ -10405,7 +10405,7 @@
 			(uuid "2d5cbd63-4db8-408a-bf30-a64e9cd5bf96")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR037")
 					(unit 1)
@@ -10471,7 +10471,7 @@
 			(uuid "30aec3c2-999f-43f0-aa76-2f3ffb38c3a8")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR044")
 					(unit 1)
@@ -10536,7 +10536,7 @@
 			(uuid "f983f6b1-cb19-4d65-95df-f835d8be25fb")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR019")
 					(unit 1)
@@ -10602,7 +10602,7 @@
 			(uuid "8128c4d6-caac-496b-8002-8fbc94b930d8")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR034")
 					(unit 1)
@@ -10670,7 +10670,7 @@
 			(uuid "4d72a6e5-8912-4429-b0a8-ebc45ec479f7")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "R5")
 					(unit 1)
@@ -10735,7 +10735,7 @@
 			(uuid "3f1d3231-3ffb-4111-817b-c7f894bb4fa1")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR041")
 					(unit 1)
@@ -10803,7 +10803,7 @@
 			(uuid "4b424c87-1c1b-439f-9fe0-ee036fbacec2")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "R4")
 					(unit 1)
@@ -10870,7 +10870,7 @@
 			(uuid "70acadd1-d05d-46b5-aba4-a4b93268a339")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C8")
 					(unit 1)
@@ -10936,7 +10936,7 @@
 			(uuid "bf6bae3d-3782-4a41-ba78-ba26a3eb838b")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR038")
 					(unit 1)
@@ -11004,7 +11004,7 @@
 			(uuid "4d17da1b-e181-4df7-811e-4b19fc1983e1")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "R3")
 					(unit 1)
@@ -11070,7 +11070,7 @@
 			(uuid "409e92d6-c23f-4088-9b4a-9d0878721104")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR03")
 					(unit 1)
@@ -11140,7 +11140,7 @@
 			(uuid "2a24611c-9fc8-4f9a-bfd7-a0302831f707")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C4")
 					(unit 1)
@@ -11206,7 +11206,7 @@
 			(uuid "ccfb649e-b3f1-40fb-bf82-8f5256434a3f")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR028")
 					(unit 1)
@@ -11274,7 +11274,7 @@
 			(uuid "b26f1412-590c-4855-86e4-b07a21d3810d")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C10")
 					(unit 1)
@@ -11341,7 +11341,7 @@
 			(uuid "6bdf223e-42de-45ae-bd26-1fa6245b18d5")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR025")
 					(unit 1)
@@ -11411,7 +11411,7 @@
 			(uuid "1a7e2df6-6deb-4fc0-934f-5133574309e4")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C15")
 					(unit 1)
@@ -11481,7 +11481,7 @@
 			(uuid "2c4ec232-cc4e-4796-a84a-fcdb216e5719")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C1")
 					(unit 1)
@@ -11547,7 +11547,7 @@
 			(uuid "90e97084-b90e-4e00-8f67-b7c3db8096be")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR010")
 					(unit 1)
@@ -11681,7 +11681,7 @@
 			(uuid "f3d59e19-6e2c-4daf-805c-7d68e8b61e7c")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C9")
 					(unit 1)
@@ -11818,7 +11818,7 @@
 			(uuid "3148634b-35ff-40d3-8d70-2e575882753e")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "R7")
 					(unit 1)
@@ -11884,7 +11884,7 @@
 			(uuid "e51d6d72-8941-4abc-ac2c-6cd74bb3adaa")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR09")
 					(unit 1)
@@ -12089,7 +12089,7 @@
 			(uuid "e855c114-17ef-4354-b455-f580536713d4")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR036")
 					(unit 1)
@@ -12155,7 +12155,7 @@
 			(uuid "a91d88b4-898a-43e8-b631-d6244c5a150e")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR02")
 					(unit 1)
@@ -12221,7 +12221,7 @@
 			(uuid "be838c59-78cc-4aad-a8df-13cb89ae3070")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR024")
 					(unit 1)
@@ -12322,7 +12322,7 @@
 			(uuid "6cb84754-4cfb-4115-a37c-313e9036163b")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "J2")
 					(unit 1)
@@ -12390,7 +12390,7 @@
 			(uuid "5cb8f904-4555-4821-971b-072d8e0b697a")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "R2")
 					(unit 1)
@@ -12459,7 +12459,7 @@
 			(uuid "fa3a9ce7-f5c5-4243-9638-984aac79f4a5")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C12")
 					(unit 1)
@@ -12526,7 +12526,7 @@
 			(uuid "d9343781-d422-4f40-a919-769824d99674")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C13")
 					(unit 1)
@@ -12592,7 +12592,7 @@
 			(uuid "e1522468-b290-41ad-a49a-a7d825986353")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR08")
 					(unit 1)
@@ -12662,7 +12662,7 @@
 			(uuid "4f8a38fb-9c97-4ebc-8465-25f67b54cd7e")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C2")
 					(unit 1)
@@ -12729,7 +12729,7 @@
 			(uuid "9dbda8ba-3255-4dfd-b66f-930e1a9c6365")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "H3")
 					(unit 1)
@@ -12795,7 +12795,7 @@
 			(uuid "d691f1c6-04eb-4ba6-93e4-88efd2d65fce")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR035")
 					(unit 1)
@@ -12864,7 +12864,7 @@
 			(uuid "ccefc4d1-786b-4956-b4b0-c1919a982314")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "Y2")
 					(unit 1)
@@ -12930,7 +12930,7 @@
 			(uuid "195688a5-eefb-468c-8763-2fa0c33bc2cb")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR012")
 					(unit 1)
@@ -12995,7 +12995,7 @@
 			(uuid "ea277e82-661e-456a-b34c-68057d475bfa")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR032")
 					(unit 1)
@@ -13060,7 +13060,7 @@
 			(uuid "f2ce3f4f-ddfb-4cac-86f5-2e7f8c36857f")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR043")
 					(unit 1)
@@ -13126,7 +13126,7 @@
 			(uuid "e0a963f0-8928-4a7c-8603-4bfce8e8265b")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR011")
 					(unit 1)
@@ -13160,7 +13160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pypill32:SW-SMD_L6.0-W3.5-LS8.2"
+		(property "Footprint" "pupill32:SW-SMD_L6.0-W3.5-LS8.2"
 			(at 46.99 149.86 0)
 			(effects
 				(font
@@ -13194,7 +13194,7 @@
 			(uuid "079cac0d-c589-443a-9a42-327fe129b2d9")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "SW2")
 					(unit 1)
@@ -13261,7 +13261,7 @@
 			(uuid "bb9d8633-35de-42a9-b054-9c110c4d908c")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR016")
 					(unit 1)
@@ -13327,7 +13327,7 @@
 			(uuid "9fa5cde4-731d-4262-980b-4b03f17a3bfc")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR018")
 					(unit 1)
@@ -13393,7 +13393,7 @@
 			(uuid "f19c37d9-9f14-4d92-bad6-9ea8d362cf03")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR047")
 					(unit 1)
@@ -13470,7 +13470,7 @@
 			(uuid "07272b10-3005-401f-91f3-7e2c275bf484")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "J4")
 					(unit 1)
@@ -13536,7 +13536,7 @@
 			(uuid "44d7b09a-ca31-4f96-8f01-6b7c4b3427ce")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR030")
 					(unit 1)
@@ -13670,7 +13670,7 @@
 			(uuid "7bb18d9d-39d4-4b6e-ad0a-6004ea6fe0ee")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR031")
 					(unit 1)
@@ -13736,7 +13736,7 @@
 			(uuid "90593cbc-3edd-492a-92bc-a80c7b5737bd")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR017")
 					(unit 1)
@@ -13818,7 +13818,7 @@
 			(uuid "80c3e7ad-c3aa-4a9a-9538-f8b10413d307")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "U1")
 					(unit 1)
@@ -13884,7 +13884,7 @@
 			(uuid "718c89f3-e998-489b-92a9-95a0bc9ef643")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR013")
 					(unit 1)
@@ -13952,7 +13952,7 @@
 			(uuid "701de9ba-aea8-4f1c-a39b-8f18b4c043d3")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "R8")
 					(unit 1)
@@ -14017,7 +14017,7 @@
 			(uuid "255e96f5-3ba6-480e-b5d4-7eebf9d52c7c")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR039")
 					(unit 1)
@@ -14086,7 +14086,7 @@
 			(uuid "ffa37fb9-b007-422d-8d2c-1c1f7526b4c6")
 		)
 		(instances
-			(project "pypill32"
+			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C14")
 					(unit 1)

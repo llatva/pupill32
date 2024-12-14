@@ -190,7 +190,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/bcf2d54f-cc85-42a7-8e85-0f6f8e9677cc")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.602064 -0.91)
@@ -401,7 +401,7 @@
 		(property ki_fp_filters "SOP*3.9x4.9mm*P1.27mm*")
 		(path "/5c7d4f04-1afd-4e76-aaa9-c9cf5b905b5f")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -2.56)
@@ -719,7 +719,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/d1aa0b4a-8d1d-4392-b0f0-864bbd59e695")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.76 2.525)
@@ -1003,7 +1003,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/ad45e065-1cdb-4483-860e-fc663aa867b1")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr through_hole)
 		(fp_arc
 			(start 1.900217 0.732863)
@@ -1162,7 +1162,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0fce4df8-b10f-471b-badd-a12595ff49b9")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -1373,7 +1373,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/08aa3d2d-eae3-4280-936d-6a8b205e043d")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 -0.96)
@@ -1606,7 +1606,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9651c93f-7cc1-4e53-afcf-cf81b7aaa112")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -1817,7 +1817,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/fa6473b6-9197-4418-a833-58a35cae5463")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -2028,7 +2028,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/4afd6fd3-0fa9-4baf-8a7f-6eb8794570d2")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -2144,7 +2144,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/01315dad-a156-4581-bf68-713dbf505fdb")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -2192,7 +2192,7 @@
 			(uuid "138b9a15-dba4-4fd3-8a14-33436042291c")
 		)
 	)
-	(footprint "pypill32:SW-SMD_L6.0-W3.5-LS8.2"
+	(footprint "pupill32:SW-SMD_L6.0-W3.5-LS8.2"
 		(layer "F.Cu")
 		(uuid "53b0cdff-9e69-495f-874e-6974357bad6f")
 		(at 133.5024 85.6 90)
@@ -2219,7 +2219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pypill32:SW-SMD_L6.0-W3.5-LS8.2"
+		(property "Footprint" "pupill32:SW-SMD_L6.0-W3.5-LS8.2"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2257,7 +2257,7 @@
 		)
 		(path "/dc0085aa-230d-4b63-99b4-de2b88ea7b4a")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.99 -1.8)
@@ -2599,7 +2599,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8066a4bd-aaa5-42d0-a4e3-cf63dc103406")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -2810,7 +2810,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/cd95a3e7-50c3-4311-a1d4-2a52b907c3ee")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -2926,7 +2926,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c490edc2-dc57-4d23-8b14-412212a76a15")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -3302,7 +3302,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8e163c3e-9011-435d-b48c-64d71e56774b")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -3516,7 +3516,7 @@
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/ec104d9c-6e45-4572-b84f-e071c912a82a")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.602064 -0.91)
@@ -3727,7 +3727,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c64f5bf8-c9f9-4c01-a99b-5d1ad003cab7")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -3938,7 +3938,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0f7ef1eb-29b3-45d1-8864-a7a1e781abc2")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -4314,7 +4314,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8655d765-f7cd-4f33-9428-4a51aa723039")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -4525,7 +4525,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/459a50d9-37d8-458c-8bf0-4bf1ff5b8d9b")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -4641,7 +4641,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/6be4d42d-068a-45c9-a7a7-859b92b32c39")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 -0.96)
@@ -4806,7 +4806,7 @@
 			)
 		)
 	)
-	(footprint "pypill32:USB-C-SMD_TYPE-C-6PIN-2MD-073"
+	(footprint "pupill32:USB-C-SMD_TYPE-C-6PIN-2MD-073"
 		(layer "F.Cu")
 		(uuid "9935b599-3016-4a29-9cd8-6b79fdb5a1f4")
 		(at 94.14 75.68 -90)
@@ -4834,7 +4834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pypill32:USB-C-SMD_TYPE-C-6PIN-2MD-073"
+		(property "Footprint" "pupill32:USB-C-SMD_TYPE-C-6PIN-2MD-073"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4884,7 +4884,7 @@
 		)
 		(path "/3b99aac8-f2a5-41d5-a342-9945d15a95eb")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.5 4.97)
@@ -5148,7 +5148,7 @@
 			(pintype "unspecified")
 			(uuid "edd4b0a7-a8b9-46ad-a825-9fbbd16b5353")
 		)
-		(model "/pypill32.3dshapes/USB-C-SMD_TYPE-C-6PIN-2MD-073.wrl"
+		(model "/pupill32.3dshapes/USB-C-SMD_TYPE-C-6PIN-2MD-073.wrl"
 			(offset
 				(xyz 0 -1.2 0.9)
 			)
@@ -5228,7 +5228,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1b3467c1-f801-4ce5-ab82-bb72d3174a3a")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -5442,7 +5442,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3b7bc6e1-88a9-4a61-85fc-e9fe2b4015e9")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.06 -1.06)
@@ -5730,7 +5730,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/0b9e251a-f9bc-4a49-bba9-727e1b5b823f")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -6037,7 +6037,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/f5f2ac68-c6bd-4796-ac0a-71f357e60c7c")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -6335,7 +6335,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4bcd5895-2922-482a-b6bf-86196d3ffcae")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -6448,7 +6448,7 @@
 		(property ki_fp_filters "TSSOP*4.4x6.5mm*P0.65mm*")
 		(path "/24fdfad1-4734-447c-be06-75995e37a67c")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -3.385)
@@ -6883,7 +6883,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/82656f77-e732-4262-b5cd-60746740fb14")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -7094,7 +7094,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b0d8bd34-39b4-4b7b-b2aa-d2d9afd97abb")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -7305,7 +7305,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ac2ed069-d472-40f1-bbb6-28fc0ff7f42f")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -7516,7 +7516,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0b045911-60b9-4107-8b5f-055ac8c824ab")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -7729,7 +7729,7 @@
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/b7c9140c-2329-42d3-b3cf-c75c56d10a9d")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.91 3.41)
@@ -8004,7 +8004,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e1742436-15bb-4cff-8078-9a45d66e8cd2")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -8235,7 +8235,7 @@
 			)
 		)
 	)
-	(footprint "pypill32:SW-SMD_L6.0-W3.5-LS8.2"
+	(footprint "pupill32:SW-SMD_L6.0-W3.5-LS8.2"
 		(layer "F.Cu")
 		(uuid "f16d744c-673f-4ba8-b863-88e28f09aabe")
 		(at 133.1976 67.4116 -90)
@@ -8262,7 +8262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pypill32:SW-SMD_L6.0-W3.5-LS8.2"
+		(property "Footprint" "pupill32:SW-SMD_L6.0-W3.5-LS8.2"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8300,7 +8300,7 @@
 		)
 		(path "/42a3e857-522d-47d3-baa2-6f1ebc6e8a2e")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.01 1.8)
@@ -8647,7 +8647,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/623caf30-629f-4fe4-bf8a-40645d6b2750")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -9028,7 +9028,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ccf41b4f-74bb-4d79-97d8-0ebd9d8deb72")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -9248,7 +9248,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/658be286-3a4f-4a80-8ff4-5ce365232335")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -9468,7 +9468,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a14c7564-7cba-4448-9754-d08f818e6ebe")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -9688,7 +9688,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/09276fd4-7b02-479a-8f65-ff6ffb865dc0")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -9905,7 +9905,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1c45a5a0-eda8-4ef3-878b-19bd1e05bd39")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -10122,7 +10122,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/15efc465-1737-4df2-a1d0-be02f0eb0b00")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -10342,7 +10342,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c86f122a-4174-4038-a904-70dcfaa102e4")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -10562,7 +10562,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ffe4321a-70bf-47d6-9c24-0116c0d0e100")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -10782,7 +10782,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/84130366-1b08-4b3a-abcf-9830a9d88933")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -10999,7 +10999,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a4c2a73f-74f9-44b4-b3d9-72f1989d3246")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -11219,7 +11219,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0fcd2158-6316-4852-b5c3-f1f019b81bbc")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -11436,7 +11436,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c66d4b4f-c100-4c3f-8028-3eb399d94ef7")
 		(sheetname "Root")
-		(sheetfile "pypill32.kicad_sch")
+		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)

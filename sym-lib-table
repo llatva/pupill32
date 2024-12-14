@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "pypill32")(type "KiCad")(uri "${KIPRJMOD}/pypill32.kicad_sym")(options "")(descr ""))
+  (lib (name "pupill32")(type "KiCad")(uri "${KIPRJMOD}/pupill32.kicad_sym")(options "")(descr ""))
 )
