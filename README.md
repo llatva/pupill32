@@ -27,14 +27,14 @@ OR
 
 * Connect USB cable, press and hold BOOT button and press and release RESET button
 
-## Independent project -- no affiliation or endorsement
-
-This project is no way affiliated with Puya Semiconductor or any other commercial body. This is an indie evaluation board designed and built by a hobbyist. You may use this open hardware design, at your own risk, according to its license conditions, see the following chapter. 
-
 ## Images
 
 ![top](https://llatva.github.io/pupill32/top.png)
 ![bottom](https://llatva.github.io/pupill32/bottom.png)
+
+## Independent project -- no affiliation or endorsement
+
+This project is no way affiliated with Puya Semiconductor or any other commercial body. This is an indie evaluation board designed and built by a hobbyist. You may use this open hardware design, at your own risk, according to its license conditions, see the following chapter. 
 
 ## License
 
