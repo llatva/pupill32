@@ -5,7 +5,7 @@
 	(uuid "0471bd21-091d-469f-a793-0e3efa813f7b")
 	(paper "A4")
 	(title_block
-		(title "pypill32 - indie py32f030 evaluation board")
+		(title "pupill32 - indie py32f030 evaluation board")
 		(rev "A")
 	)
 	(lib_symbols
@@ -6776,9 +6776,9 @@
 		)
 		(uuid "d94f3fa0-979f-4473-9484-2f3d268c7508")
 	)
-	(text "PYPILL32 rev.A"
+	(text "PU(rple)PILL32 rev.A"
 		(exclude_from_sim no)
-		(at 218.186 169.926 0)
+		(at 224.536 169.926 0)
 		(effects
 			(font
 				(size 3 3)
