@@ -21,7 +21,7 @@
 
 USB UART is connected to PA2/PA3 (TX/RX). To access bootloader (PUYAISP, USB-to-serial), either
 
-* Disconnect USB cable, press and hold BOOT buttonm then connect the cable.
+* Disconnect USB cable, press and hold BOOT button then connect the cable.
 
 OR 
 
