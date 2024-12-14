@@ -1,4 +1,4 @@
-name: 3d
+name: pcb_image
 on:
   push:
 jobs:
@@ -14,7 +14,7 @@ jobs:
         with:
           pcb_file: pypill32.kicad_pcb
           output_path: ${{ github.workspace }}/images
-        
+
       - name: Setup Pages
         if: github.ref == 'refs/heads/main'
         uses: actions/configure-pages@v3
@@ -29,7 +29,6 @@ jobs:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     needs: render-image
-      
     permissions:
       pages: write
       id-token: write
