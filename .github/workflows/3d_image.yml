@@ -14,7 +14,7 @@ jobs:
         with:
           pcb_file: pupill32.kicad_pcb
           output_path: ${{ github.workspace }}/images
-          zoom: 2
+          zoom: 1.5
 
       - name: Setup Pages
         if: github.ref == 'refs/heads/main'
