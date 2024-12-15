@@ -5,7 +5,7 @@
 
 ## Features
 
-* development/evaluation board for Pyua PY32F030F1xP8 MCU (TSSOP20)
+* development/evaluation board for Pyua PY32F030F1xP6 MCU (TSSOP20)
 * USB serial (CH340N, ESD protection)
 * USB bootloader support (PUYAISP)
 * 48 MHz operation with internal oscillator
