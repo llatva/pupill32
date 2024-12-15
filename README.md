@@ -19,13 +19,15 @@
 
 ## Bootloader access
 
-USB UART is connected to PA2/PA3 (TX/RX). To access bootloader (PUYAISP, USB-to-serial), either
+USB UART is connected to PA2/PA3 (TX/RX). To access bootloader (puyaisp.py /1/, USB-to-serial), either
 
 * Disconnect USB cable, press and hold BOOT button then connect the cable.
 
 OR 
 
 * Connect USB cable, press and hold BOOT button and press and release RESET button
+
+/1/ [https://github.com/wagiminator/MCU-Flash-Tools]
 
 ## Images
 
