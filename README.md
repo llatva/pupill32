@@ -7,7 +7,7 @@
 
 * development/evaluation board for Pyua PY32F030F1xP6 MCU (TSSOP20)
 * USB serial (CH340N, ESD protection)
-* USB bootloader support (PUYAISP)
+* USB bootloader support (e.g. puyaisp.py from MCU-Flash-Tools /1/)
 * 48 MHz operation with internal oscillator
 * option for 32.768 kHz crystal (if used, pins PA9 and PA10 reserved)
 * all peripheral pins available
@@ -19,7 +19,7 @@
 
 ## Bootloader access
 
-USB UART is connected to PA2/PA3 (TX/RX). To access bootloader (puyaisp.py /1/, USB-to-serial), either
+USB UART is connected to PA2/PA3 (TX/RX). To access bootloader (e.g. puyaisp.py /1/, USB-to-serial), either
 
 * Disconnect USB cable, press and hold BOOT button then connect the cable.
 
