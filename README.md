@@ -2,7 +2,9 @@
 ## Compact and inexpensive USB-C development board for PY32F030 (TSSOP20) 32-bit MCU
 
 Revision A had some glitches, please refer to changelog in the revB schematic or below.
-With UART lines swapped it flashes now over USB (factory-installed bootloader).
+With UART lines swapped it flashes now over USB (factory-installed bootloader). 
+
+Testing still underway, revB may still change (W.I.P).
 
 ## Features
 
