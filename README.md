@@ -37,9 +37,9 @@ OR
 
 ## Changelog revA --> revB
 
--added C19 (bug)
--swapped UART RX/TX (bug)
--R2 -> 5k1 (brightness)
+* added C19 (bug)
+* swapped UART RX/TX (bug)
+* R2 -> 5k1 (brightness)
 
 ## Independent project -- no affiliation or endorsement
 
