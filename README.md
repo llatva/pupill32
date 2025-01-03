@@ -47,6 +47,11 @@ OR
 
 This project is no way affiliated with Puya Semiconductor or any other commercial body. This is an indie evaluation board designed and built by a hobbyist. You may use this open hardware design, at your own risk, according to its license conditions, see the following chapter. 
 
+## References
+
+/2/ [J. Carlson: The cheapest flash microcontroller you can buy is actually an ARM CORTEX-M0+](https://jaycarlson.net/2023/02/04/the-cheapest-flash-microcontroller-you-can-buy-is-actually-an-arm-cortex-m0/)
+/3/ [OpenPuya -- py32.org](https://py32.org/en/)
+
 ## License
 
 This board is licensed under CERN Open Hardware License, version 2, CERN-OHL-W (weakly reciprocal). 
