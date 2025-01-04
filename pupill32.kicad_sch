@@ -6692,9 +6692,9 @@
 		)
 		(uuid 4c38d605-5690-4a5e-9432-7c4583fb30bd)
 	)
-	(text "-added C19 (bug)\n-swapped UART RX/TX (bug)\n-R2 -> 5k1 (brightness)"
+	(text "-added C19 (bug)\n-swapped UART RX/TX (bug)\n-R2 -> 5k1 (brightness)\n-added R1 (BOOT0 pulldown)"
 		(exclude_from_sim no)
-		(at 93.98 127 0)
+		(at 93.98 128.016 0)
 		(effects
 			(font
 				(size 1.27 1.27)
