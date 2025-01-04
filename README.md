@@ -41,6 +41,7 @@ OR
 
 * added C19 (bug)
 * swapped UART RX/TX (bug)
+* added R1 (boot0 pulldown)
 * R2 -> 5k1 (brightness)
 
 ## Independent project -- no affiliation or endorsement
