@@ -1206,6 +1206,163 @@
 				)
 			)
 		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -5027,22 +5184,10 @@
 		(uuid "1da77b4a-5526-4aee-a587-fe35fbcb34a9")
 	)
 	(junction
-		(at 137.16 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c886e06-906b-4aa5-affa-38ed4ce0fb9e")
-	)
-	(junction
 		(at 245.11 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30d72a4e-e854-4475-9b44-499522f355d3")
-	)
-	(junction
-		(at 137.16 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32b8fc24-7b5b-4d48-a34c-1d3a8b64a7f5")
 	)
 	(junction
 		(at 245.11 59.69)
@@ -5117,6 +5262,12 @@
 		(uuid "741f88f8-c7dc-4ff1-a300-12c5286a75b1")
 	)
 	(junction
+		(at 133.35 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7622c958-94fa-491f-99e7-8451c3fd8f01")
+	)
+	(junction
 		(at 110.49 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5181,12 +5332,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd6353d4-3f64-4251-bedb-01d16f23e5a4")
-	)
-	(junction
-		(at 133.35 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0b04f7e-d0f1-4165-bea0-95415843c47f")
 	)
 	(junction
 		(at 142.24 104.14)
@@ -5332,16 +5477,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 104.14) (xy 137.16 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "150f508f-c135-4da8-8ad7-4a02c6b9e82a")
-	)
-	(wire
-		(pts
 			(xy 29.21 57.15) (xy 29.21 85.09)
 		)
 		(stroke
@@ -5352,7 +5487,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 142.24 104.14)
+			(xy 133.35 104.14) (xy 142.24 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5432,7 +5567,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 99.06) (xy 137.16 99.06)
+			(xy 130.81 99.06) (xy 133.35 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6022,16 +6157,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 99.06) (xy 133.35 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92628347-9b68-45f7-8464-e66b31461e51")
-	)
-	(wire
-		(pts
 			(xy 125.73 189.23) (xy 125.73 187.96)
 		)
 		(stroke
@@ -6382,7 +6507,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 142.24 99.06)
+			(xy 133.35 99.06) (xy 142.24 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7857,75 +7982,6 @@
 			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 133.35 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09276fd4-7b02-479a-8f65-ff6ffb865dc0")
-		(property "Reference" "C16"
-			(at 132.334 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 132.08 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 133.35 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ea2a268-73cc-4fc5-924f-6c52a88d926d")
-		)
-		(pin "2"
-			(uuid "567d5994-7dc3-4c83-b5dc-875f88d9de0d")
-		)
-		(instances
-			(project "pupill32"
-				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -9486,6 +9542,83 @@
 			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 133.35 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "442e3942-4704-4436-b586-2764bfed253e")
+		(property "Reference" "C20"
+			(at 135.89 99.7838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 135.89 102.3238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder"
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "Tantalum"
+			(at 134.366 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e8883cb0-529c-4625-b150-b4ceee86c141")
+		)
+		(pin "1"
+			(uuid "54847057-2d7e-4056-be1f-ca31093ec63e")
+		)
+		(instances
+			(project ""
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -12894,76 +13027,6 @@
 			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 137.16 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccf41b4f-74bb-4d79-97d8-0ebd9d8deb72")
-		(property "Reference" "C2"
-			(at 139.7 100.3363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 139.7 102.8763 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 137.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64e9e80e-c0af-4326-bbb6-7d581c42e924")
-		)
-		(pin "2"
-			(uuid "4f8a38fb-9c97-4ebc-8465-25f67b54cd7e")
-		)
-		(instances
-			(project "pupill32"
-				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
-					(reference "C2")
 					(unit 1)
 				)
 			)
