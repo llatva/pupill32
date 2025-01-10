@@ -12868,13 +12868,13 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "PCB\nrev.B"
-		(at 104.2416 82.8548 0)
+	(gr_text "rev.B"
+		(at 104.394 81.9404 0)
 		(layer "B.SilkS")
 		(uuid "007818d5-177c-4cb2-96b8-bacb21200864")
 		(effects
 			(font
-				(size 1.5 1.5)
+				(size 1.8 1.5)
 				(thickness 0.375)
 				(bold yes)
 			)
@@ -12928,6 +12928,19 @@
 			(font
 				(size 1.5 1)
 				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "PU(RPLE)\nPILL32 for"
+		(at 129.6416 77.724 0)
+		(layer "B.SilkS")
+		(uuid "2c0b4652-fa73-44b4-9473-11ff62e8a6ab")
+		(effects
+			(font
+				(size 1.5 1.2)
+				(thickness 0.3)
 				(bold yes)
 			)
 			(justify left bottom mirror)
@@ -13142,7 +13155,7 @@
 		)
 	)
 	(gr_text "PY32F030\nF18P6"
-		(at 131.2672 83.2104 0)
+		(at 131.0132 83.058 0)
 		(layer "B.SilkS")
 		(uuid "80248231-21dd-447d-9a5e-71f083d65986")
 		(effects
@@ -13323,7 +13336,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "LICENSE:\nCERN-\nOHL-W"
+	(gr_text "Open HW:\nCERN-\nOHL-W"
 		(at 109.5502 78.7654 0)
 		(layer "B.SilkS")
 		(uuid "eeff255c-a7d2-4eed-8606-b77fd9d1f2c6")
