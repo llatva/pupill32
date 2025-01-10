@@ -43,6 +43,8 @@ OR
 * swapped UART RX/TX (bug)
 * added R1 (boot0 pulldown)
 * R2 -> 5k1 (brightness)
+* C20 tantalum
+* SWD resistors R9-R12 added
 
 ## Independent project -- no affiliation or endorsement
 

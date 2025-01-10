@@ -5184,6 +5184,12 @@
 		(uuid "1da77b4a-5526-4aee-a587-fe35fbcb34a9")
 	)
 	(junction
+		(at 264.16 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22448470-f977-4e04-8bed-cc6dfb060bc7")
+	)
+	(junction
 		(at 245.11 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5212,6 +5218,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40947c79-1ff9-4f10-94c9-434a8dced3b6")
+	)
+	(junction
+		(at 264.16 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cb60113-ecdd-4d59-bbd4-1894cb3f959a")
 	)
 	(junction
 		(at 256.54 64.77)
@@ -5272,6 +5284,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab591616-4aaf-4523-a480-8663714bb1c0")
+	)
+	(junction
+		(at 267.97 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adf5ab29-3742-48f2-a89b-061b57b931da")
 	)
 	(junction
 		(at 146.05 104.14)
@@ -5447,6 +5465,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 41.91) (xy 264.16 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf81197-311d-4fbb-bded-4366ffcb5742")
+	)
+	(wire
+		(pts
 			(xy 105.41 160.02) (xy 110.49 160.02)
 		)
 		(stroke
@@ -5597,6 +5625,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 49.53) (xy 264.16 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254d080e-01c6-4d93-a3ba-4138bb3336f0")
+	)
+	(wire
+		(pts
 			(xy 171.45 46.99) (xy 172.72 46.99)
 		)
 		(stroke
@@ -5697,7 +5735,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 49.53) (xy 254 49.53)
+			(xy 245.11 49.53) (xy 251.46 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5744,6 +5782,16 @@
 			(type default)
 		)
 		(uuid "38d6e76e-8fd6-4940-9a07-c1dbe95b9c50")
+	)
+	(wire
+		(pts
+			(xy 264.16 40.64) (xy 264.16 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e1ba2c-6320-4a51-9e59-e38d5e7aa719")
 	)
 	(wire
 		(pts
@@ -5814,6 +5862,16 @@
 			(type default)
 		)
 		(uuid "422d5ae8-191a-49b2-930b-594abdcdbfba")
+	)
+	(wire
+		(pts
+			(xy 267.97 52.07) (xy 275.59 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43280ae8-5fbe-4d48-962f-6eff6fff1562")
 	)
 	(wire
 		(pts
@@ -5914,6 +5972,16 @@
 			(type default)
 		)
 		(uuid "53253abd-30dc-41a8-bb6f-7ce34b643c86")
+	)
+	(wire
+		(pts
+			(xy 264.16 49.53) (xy 273.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58dc42fb-95aa-4a34-a830-c7787fe6bdf7")
 	)
 	(wire
 		(pts
@@ -6217,7 +6285,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 52.07) (xy 254 52.07)
+			(xy 245.11 52.07) (xy 256.54 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6304,6 +6372,16 @@
 			(type default)
 		)
 		(uuid "af493e19-8b88-47df-97e6-3c8b6753faef")
+	)
+	(wire
+		(pts
+			(xy 267.97 46.99) (xy 267.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01e5526-7387-4d53-bb38-06c63ef28327")
 	)
 	(wire
 		(pts
@@ -6394,6 +6472,26 @@
 			(type default)
 		)
 		(uuid "c0aa34db-73b2-463d-b78f-3865204f2766")
+	)
+	(wire
+		(pts
+			(xy 261.62 52.07) (xy 267.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25fd58c-f9fa-4f96-8bd3-f360af917cdf")
+	)
+	(wire
+		(pts
+			(xy 264.16 41.91) (xy 264.16 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d45918-af17-4065-b80a-5f04f7ccb026")
 	)
 	(wire
 		(pts
@@ -6807,7 +6905,7 @@
 	)
 	(rectangle
 		(start 91.186 118.491)
-		(end 141.986 132.461)
+		(end 141.986 137.16)
 		(stroke
 			(width 0.3)
 			(type default)
@@ -6817,9 +6915,9 @@
 		)
 		(uuid 4c38d605-5690-4a5e-9432-7c4583fb30bd)
 	)
-	(text "-added C19 (bug)\n-swapped UART RX/TX (bug)\n-R2 -> 5k1 (brightness)\n-added R1 (BOOT0 pulldown)"
+	(text "-added C19 (bug)\n-swapped UART RX/TX (bug)\n-R2 -> 5k1 (brightness)\n-added R1 (BOOT0 pulldown)\n-C20 tantalum\n-SWD resistors R9-R12 added"
 		(exclude_from_sim no)
-		(at 93.98 128.016 0)
+		(at 94.234 130.048 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7384,7 +7482,7 @@
 	)
 	(global_label "SWDCLK"
 		(shape input)
-		(at 254 49.53 0)
+		(at 273.05 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7395,7 +7493,7 @@
 		)
 		(uuid "36656212-1932-4d7d-b13d-8aa21479e3ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.9602 49.53 0)
+			(at 284.0102 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7721,7 +7819,7 @@
 	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 254 52.07 0)
+		(at 275.59 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7732,7 +7830,7 @@
 		)
 		(uuid "b544bf3e-3160-412f-8e86-af1e189f37dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.3274 52.07 0)
+			(at 284.9174 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,6 +9723,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 267.97 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4546088d-6768-46a4-8113-966dd6403ceb")
+		(property "Reference" "R12"
+			(at 268.986 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 269.24 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37e7643c-3184-4c4b-9a72-15534ec96b25")
+		)
+		(pin "1"
+			(uuid "d1246e20-066c-45e3-a1c2-4b7105fd5b56")
+		)
+		(instances
+			(project "pupill32"
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 144.78 185.42 0)
 		(unit 1)
@@ -10381,6 +10548,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 264.16 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "656b7ae8-5486-4c74-b89d-4af5bc6a51c5")
+		(property "Reference" "#PWR048"
+			(at 264.16 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 264.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "259c9702-33cc-43dc-840c-81f26141ab13")
+		)
+		(instances
+			(project "pupill32"
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 161.29 40.64 90)
 		(unit 1)
@@ -10442,6 +10675,74 @@
 			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 254 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67575378-c2b6-4e95-9d2a-bfaa87c8a08c")
+		(property "Reference" "R9"
+			(at 254 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 254 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 254 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36ce8ccf-8be4-4675-afb7-1b124c1e33a0")
+		)
+		(pin "1"
+			(uuid "b457fbba-e6d7-4faa-a371-593fec155d1f")
+		)
+		(instances
+			(project "pupill32"
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11446,6 +11747,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 264.16 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88e2acef-3439-4d69-9f33-8dec9767aa93")
+		(property "Reference" "R11"
+			(at 259.842 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 259.842 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 264.16 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "738b3ec4-04fb-40cb-a3b5-c3190cc13590")
+		)
+		(pin "1"
+			(uuid "97a2adf2-18e6-496f-9856-4eab140307fd")
+		)
+		(instances
+			(project "pupill32"
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 146.05 59.69 0)
 		(unit 1)
@@ -11710,6 +12080,74 @@
 			(project "pupill32"
 				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 259.08 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9987b26a-08f0-4ecd-b796-a8d3ceb012ef")
+		(property "Reference" "R10"
+			(at 259.08 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 259.08 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 259.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "130d8360-e555-4893-9740-ae18842550be")
+		)
+		(pin "1"
+			(uuid "b2d9e401-00dd-45df-b8c3-1f3dabed518f")
+		)
+		(instances
+			(project "pupill32"
+				(path "/0471bd21-091d-469f-a793-0e3efa813f7b"
+					(reference "R10")
 					(unit 1)
 				)
 			)
