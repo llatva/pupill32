@@ -9626,7 +9626,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-B (3528-21 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C20"
-			(at 0 2.35 90)
+			(at 0 2.35 -90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "550edeaa-0535-477c-828d-94acee5a6f7f")
@@ -9639,7 +9639,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 -2.35 90)
+			(at 0 -2.35 -90)
 			(layer "B.Fab")
 			(uuid "a45a0e70-a29a-4d89-91b7-dc59ad7c4d66")
 			(effects
@@ -9711,36 +9711,6 @@
 		(sheetname "Root")
 		(sheetfile "pupill32.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 1.75 -1.51)
-			(end -2.635 -1.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5f1d5bd7-3db9-4963-9391-d372958f0dcf")
-		)
-		(fp_line
-			(start -2.635 -1.51)
-			(end -2.635 1.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "bd381155-9b9b-4844-8a64-b9f7cfd81d27")
-		)
-		(fp_line
-			(start -2.635 1.51)
-			(end 1.75 1.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "7adf656a-d9dc-433e-a4df-96e825d26871")
-		)
 		(fp_line
 			(start 2.62 -1.65)
 			(end 2.62 1.65)
@@ -9832,7 +9802,7 @@
 			(uuid "19b04ffb-7fd7-4f0a-bf63-8e74ad246e28")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "a6f5d339-58f9-4e0d-acda-31faf4b2b8fc")
 			(effects
