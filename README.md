@@ -14,11 +14,13 @@ Testing still underway, revB may still change (W.I.P).
 * 48 MHz operation with internal oscillator
 * option for 32.768 kHz crystal (if used, pins PA9 and PA10 reserved)
 * all peripheral pins available
-* SWD header for programming, but if using USB bootloader, those pins can also be configured for other purposes
+* SWD header for programming (by using USB bootloader for flashing, those pins can be configured for other purposes**)
 * 3V3 linear regulator; 3V3 logic levels
 * powered from USB (SMD fuse for overcurrent protection)
 * PWR LED and user-programmable USR led (activated by solder bridge)
 * RESET and BOOT buttons
+
+**) In that case, if you don't need pull-ups for your signals, do not populate R11-R12.
 
 ## Bootloader access
 
