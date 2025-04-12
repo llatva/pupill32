@@ -1,10 +1,8 @@
 # pu(rple)pill32
 ## Compact and inexpensive USB-C development board for PY32F030 (TSSOP20) 32-bit MCU
 
-Revision A had some glitches, please refer to changelog in the revB schematic or below.
-With UART lines swapped it flashes now over USB (factory-installed bootloader). 
-
-Testing still underway, revB may still change (W.I.P).
+RevA had some glitches, please refer to changelog in the revB schematic or below.
+RevB tested to be functional, and can be flash-programmed over USB (see bootloader access below).
 
 ## Features
 
@@ -38,6 +36,8 @@ OR
 
 ![top](https://llatva.github.io/pupill32/top.png)
 ![bottom](https://llatva.github.io/pupill32/bottom.png)
+
+![photo](pupill32-revB-photo.jpg)
 
 ## Changelog revA --> revB
 
